@@ -1,0 +1,196 @@
+body{
+  background-color: silver;
+  width: auto;
+  height: 100vh;
+  padding: 0;
+  margin: 0; 
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/* SECTION1 */
+
+.section_1{
+  width: 1520px;
+  height: 566px;
+  padding: 120px 80px 110px ;
+  background-color: #ffffff;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.section_1 .title{
+  margin-left: 80px;
+  width: 750px;
+  height: 144px;
+  font-family: 'Exo2',sans-serif;
+  font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.72px;
+  text-align: left;
+  color: #000000;
+}
+
+
+/* 인물 카드 공통 부분  */
+
+.personal_card{
+  display: flex;
+}
+.personal_card .card{
+  width: 493px;
+  margin: 0 20px 0 0;
+  height: 352px;
+}
+
+.personal_card .card .photo{
+  width: 105px;
+  height: 105px;
+}
+
+.personal_card .card .name{
+  width: 493px;
+  height: 36px;
+  flex-grow: 0;
+  margin: 40px 0 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.36px;
+  text-align: left;
+  color: #000000;
+  margin: 40px 0 0;
+  width: 493px;
+  height: 36px;
+  flex-grow: 0;
+}
+
+.personal_card .card .info{
+  width: 493px;
+  height: 90px;
+  flex-grow: 0;
+  margin: 24px 0;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.27px;
+  text-align: left;
+  opacity: .8;
+}
+
+.personal_card .card .learn_more{
+  width: 493px;
+  height: 30px;
+  flex-grow: 0;
+  font-family: 'Exo2',sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.27px;
+  text-align: left;
+  color: #18a0fb;
+}
+
+/* 가운데 카드 */
+
+.personal_card .card.two{
+  width: 494px;
+  height: 352px;
+  text-align: left;
+  color: #000000;
+  background-color: cadetblue;
+}
+
+
+/* SECTION2 */
+
+.section-2{
+  width: 1680px;
+  height: 760px;
+  background-image: url("https://source.unsplash.com/random/1680x760");
+  background-size: cover;
+  object-fit: contain;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.section-2 .imageContainer{
+  width: 1520px;
+  height: 276px;
+  padding: 243px 80px 241px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.section-2 .saying{
+  width: 1520px;
+  height: 180px;
+  border-bottom: rgba(255, 255, 255, 0.8) solid 1px;
+  opacity: 1;
+}
+
+.section-2 .saying .saying_title{
+  width: 1520px;
+  height: 36px;
+  flex-grow: 0;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.36px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 1;
+  
+}
+
+.section-2 .saying .saying_content{
+  width: 1520px;
+  height: 89px;
+  flex-grow: 0;
+  margin: 23px 0 32px;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.27px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 1;
+}
+
+.section-2 .saying_content2{
+  width: 1520px;
+  height: 75px;
+  flex-grow: 0;
+  margin: 32px 0 0 2px;
+  opacity: 1;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: -0.21px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 1;
+}
